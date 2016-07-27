@@ -37,3 +37,42 @@
 .am5{
 	margin-top: 25px;
 }
+.deep{
+   height: 220px;
+   padding-right: 10px;
+   padding-left: 10px;
+   background-color: yellow;
+}
+.container2{
+	height: 260px;
+	width: 960px;
+	margin-left: 150px;
+	padding: 20px;
+	box-sizing: border-box;
+	background-color: yellow;
+}
+.rar{
+	margin-left: 100px
+}
+.video{
+	width: 100%;
+}
+.bloque{
+	width: 100%;
+}
+.gray{
+	color:#6e6e6e;
+}
+.raya{
+	border:1px  #6e6e6e solid;
+}
+.more{
+	color:red;
+}
+footer{
+	background:#6E6E6E;
+	width:100%;
+	color:#fff;
+	margin:auto;
+	font-size: 16px;
+}
