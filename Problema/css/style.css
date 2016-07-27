@@ -1,0 +1,21 @@
+.title2{
+	margin: 20px;
+}
+.title3{
+	margin-right: 60px;
+	margin-top: 20px;
+}
+.title{
+	max-width: 300px;
+}
+.rojo{
+	height: 400px;
+	background-image: url("../img/banner.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.img2{
+	width: 70px;
+	margin-top: 180px;
+	margin-left: 270px;
+}
