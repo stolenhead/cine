@@ -1,82 +1,171 @@
-.container{
+body {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	position: fixed;
 	width: 100%;
+	background-color: white;
+	opacity: 0.95;
+	z-index: 99;
 }
-.title2{
-	margin: 20px;
+
+.logo {
+	height: 60px;
+	width: 90%;
 }
-.title3{
-	margin-right: 60px;
-	margin-top: 20px;
+
+.search {
+	color: #BCBCBC;
+	position: relative;
+	margin-top: 3%;
+	padding: 0px 4%;
 }
-.title{
-	max-width: 300px;
+
+.search input[type=text] {
+	border: none;
+	border:1px solid #BCBCBC;
+	height: 50px;
+	width: 250px;
+	padding: 0 0 0 1em;
+	font-size: 1em;
+}	
+
+.fa-search:before {
+	position: absolute;
+  right: 25px;
+  top: 12px;
+  font-size: 1.3em;	
 }
-.rojo{
-	height: 400px;
-	background-image: url("../img/banner.jpg");
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-}
-.img2{
-	width: 70px;
-	margin-top: 180px;
-	margin-left: 270px;
-}
-.caja{
-	margin-top: 10px;
-	margin-left: 5px;
-	font-size: 10px;
-}
-.cajita{
-	margin-top: 2px;
-}
-.am{
-	margin-top: 10px;
-}
-.am2{
-	margin-top: 9.5px;
-	margin-left: -62px;
-}
-.am5{
-	margin-top: 25px;
-}
-.deep{
-   height: 200px;
-   padding-right: 5px;
-   padding-left: 5px;
-   background-color: yellow;
-}
-.container2{
-	height: 260px;
+
+.banner {
+	background: #383838;
+	background-image: url("../img/banner.jpg");  
+	background-repeat: no-repeat;
 	width: 100%;
-	padding: 10px;
-	box-sizing: border-box;
-	background-color: yellow;
+	height: 650px;
+	color: #D3D3D3;
 }
-.video{
-	width: 100%;
-}
-.bloque{
-	width: 100%;
-}
-.gray{
-	color:#6e6e6e;
-}
-.raya{
-	border:1px  #6e6e6e solid;
-}
-.more{
-	color:red;
-}
-.im{
-	width: 300px;
-	height: 270px;
-	margin-top: 25px;
-}
-footer{
-	background:#6E6E6E;
-	width:100%;
-	color:#fff;
+
+.icono{
+	background-image: url("../img/icono.jpg");
+	background-size: cover;
+	height: 100px;
+	width: 100px;
 	margin:auto;
-	font-size: 16px;
+	position: absolute;
+	top: 315px;
+	left: 400px;
+}
+
+.banner-info {
+	padding: 4% 4% 4%;
+	
+}
+
+.peliculas {
+	background-color: #DFB636;
+	padding: 2% 0%;
+}
+
+.peliculas img {
+	width: 100%;
+	height: 300px;
+}
+
+.peliculas a {
+  display: block;
+}
+
+section .col-3 img {
+	width: 100%;
+	height: 380px;
+}
+
+h1 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 3.5em;
+}
+
+.all {
+	border-radius: 6px;
+    border: 2px solid #3BCF68;
+    height: 42px;
+    width: 78px;
+    text-align: center;
+    padding: 9px;
+    color: #3BCF68;
+}
+
+i {
+	position: relative;
+}
+
+.trailer, .ticket {
+  display: block;
+	background-color: #DFB636;
+	height: 45px;
+	width: 220px;
+	border-radius: 5px;
+	margin-bottom: 4%;
+	color:white;
+	font-size: 20px;
+	padding: 4%;
+	padding-bottom: 8%;
+  text-decoration: none;
+}
+.ticket {
+	background-color:#BB7B29;
+}
+.ticket p {
+	top: -22px;
+	left: 24px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.book-now .ticket {
+  padding-top: 3%;
+}
+
+.trailer p {
+	position: relative;
+	top: -22px;
+	left: 24px;
+}
+
+.trailer p, .ticket p {
+	position: relative;
+	font-family: 'Roboto', sans-serif;
+}
+
+iframe {
+	width: 100%;
+	height: 415px;
+}
+
+.more-images a {
+  display: block;
+}
+
+footer {
+	background-color: #F3F3F3;
+	color:rgba(128, 128, 128, 0.36);
+}
+
+.more {
+	color: #E3C15D;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.pdh-7 {
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.pdh-2 {
+  padding-left: 2%;
+  padding-right: 2%;
 }

@@ -1,118 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="css/grid-system.css">	
+    <link rel="stylesheet" type="text/css" href="css/grid-system.css"><link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">	
     <link rel="stylesheet" type="text/css" href="css/utilities.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<meta charset="utf-8">
 	<title>Cinemax</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 </head>
 <body>
-    <header class="container">
-        <div class="row">
-          <div class="col-4">
-    	     <img src="img/logo.png" class="title" />
-    	  </div>
-    	  <div class="col-4">
-    	     <div class="title2">MOVIE THEATER</div>
-    	  </div>
-    	  <div class="col-4">
-    	     <input type="Buscar" name="Buscar" class="title3">
-    	  </div>
-    	</div>
-    	<div class="row rojo">
-    	    <div class="col-8 ">
-    	       <div>
-    	  	       <div class="img"><img src="img/icono.jpg" class="img2"></div>
-               </div>
-    	    </div>
-    	    <div class="col-4">
-    		  <h1 class="text-gray">BIG HERO 6</h1>
-    		      <div>
-    		        <div class="row caja">
-    		          <div class="col-6  cajita">
-                         <div class="am">All Age</div>
-                         <div class="am">Ratting</div>
-                         <div class="am">Genre</div>
-                         <div class="am5">Release</div>
-                       </div>
-                       <div class="col-6 ">
-                         <div  class="am2"> :Don Hall Chris Williams</div>
-                         <div class="am2">:9,5/10</div>
-                         <div class="am2">:Animation , action , comedy</div>
-                         <div class="am2">:7 November 2014</div>
-                       </div>
+    <header>
+        <div class="container-fluid">
+             <div class="row">
+                   <div class="col-4">
+    	                <img src="img/logo.png" class="logo" />
+                    </div>
+    	            <div class="col-5">
+    	                 <p class="txt-gray mgt-4">MOVIE THEATER</p>
+    	            </div>
+    	             <div class="col-3">
+    	                  <div class="search fa fa-search">
+                            <input type="text" placeholder="Buscar..." name="search-field" class="search-field"> 
+    	                </div>
+                	</div>
+                </div>
+        </div>
+   </header>   
+   <section class="banner">
+        <div class="container-fluid">     <div class="row rojo">
+    	           <div class="col-8 ">
+    	                <div class="icono"></div>
+                    </div>    
+                    <div class="col-4">
+    		             <h1 class="mgb-3 brd-b mgt-7">BIG HERO 6</h1>
+    		        <div class="row ">
+    		            <div class="col-4  allmgb-3">
+                         All Age
+                         </div>
+                         <div class="col-8">
+                            <p class="mgb-3 mgt-4">Don Hall,Chris Willams</p>
+                         </div>
+                    </div>
+                    <div class="row">
+                         <p class="mgb-3"><strong class="col-4 pr-l">Ratting</strong>: 8,5/10</p>
+                         <p class="mgb-3"><strong class="col-4 pr-l">Genre</strong>: Animation, Action, Comedy</p>
+                         <p class="mgb-3"><strong class="col-4 pr-l">Release</strong>: 7 November 2014</p>
+                
+                        <p class="col-12 mgb-3 pr-l">The special bond that develops between plus-sized inflatable robot Baymax, and prodigy Hiro Hamada, who team up with a group of friends to form a band of high tech heroes</p>
+                    </div>
+                    <div class="row">
+                        <a href="#" class="trailer"> 
+                            <i class="fa fa-youtube-play"><p>WATCH TRAILER</p></i>
+                        </a> 
+                    </div>  
+                    <div class="row">
+                         <a href="#" class="ticket">
+                            <i class="fa fa-ticket"><p>BOOK TCKET</p></i>
+                        </a>     
                     </div>
                 </div>
-    		</div>
-    	</div>	
-    </header>
-    <section class="movies">
-    	<div class="container2">
+            </div>
+       </div>
+   </section>
+   <section class="peliculas">
+    	<div class="container-fluid">
     	    <div class="row">
-    	        <div class="col-2">
-    	           <img src="img/imagen1.jpg" class="deep" />
-    	        </div>
-    	        <div class="col-2">
-    	           <img src="img/imagen2.jpg" class="deep" />
-    	        </div>
-    	        <div class="col-2">   
-    	           <img src="img/imagen3.jpg" class="deep" />
-    	        </div>
-    	        <div class="col-2">
-    	           <img src="img/imagen4.jpg" class="deep" />
-    	        </div >
-    	        <div class="col-2">
-    	           <img src="img/imagen5.jpg" class="deep"/>
-    	        </div>
-    	        <div class="col-2">   
-    	           <img src="img/imagen6.jpg" class="deep" />
-    	        </div>
-    	     </div>
-    	</div>
+    	         <a href="#" class="col-2 pdh-7">
+                    <img src="img/imagen1.jpg">
+                </a>
+                <a href="#" class="col-2 pdh-7">
+                    <img src="img/imagen2.jpg">
+                </a>
+                <a href="#" class="col-2 pdh-7">
+                    <img src="img/imagen3.jpg">
+                </a>
+                <a href="#" class="col-2 pdh-7">
+                    <img src="img/imagen4.jpg">
+                </a>
+                <a href="#" class="col-2 pdh-7">
+                    <img src="img/imagen5.jpg">
+                </a>
+                <a href="#" class="col-2 pdh-7">
+                    <img src="img/imagen6.jpg">
+                </a>
+            </div>
+        </div>
     </section>
-    <div><iframe width="100%" height="315" src="https://www.youtube.com/embed/go7OemenVL8" frameborder="0" allowfullscreen></iframe>
-</div>
-<div class="conteiner">
-	<div class="row">
-		<div class="col-6">
-			<img src="img/imagen6.jpg" class="im">
-			 <img src="img/imagen7.jpg" class="im">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/go7OemenVL8" frameborder="0" allowfullscreen></iframe>
+    <section class="book-now pd-2 pdt-5">
+         <div class="container-fluid">
+	         <div class="row">
+		        <div class="col-6">
+                    <h3 class="text-gray large mgb-3">Don't be late,</h3>
+                    <h2 class="large mgb-3 font">Book your ticket now!</h2>
+                    <p class="text-gray mgb-3 large">Easy,simple & fast.</p>
+                    <a href="#" class="ticket">
+                        <i class="fa fa-ticket"></i><p>BOOK TCKET</p>
+                    </a>
+                    <p class="dsct large">Get Discount up to <strong>10%</strong> if you are a menmber!</p>
+                </div>
+                <div class="clo-6">
+                     <h3 class="large text-gray mgb-3">News</h3>
+                    <h4>Lorem Ipsum Dolor Sit Amet</h4>
+                    <p class="text-gray fecha">Nov 11 2014</p>
+                    <p class="text-gray brd-b">Lorem ipsum dolor sit amet, consectetur adpisicing elit, sed do euismod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minin veniam, quis nositrud exectitacion ulfani laborals nisi ut aliquip ex ea commodo</p>
+                    <h4>Lorem Ipsum Dolor Sit Amet</h4>
+                    <p class="text-gray fecha">Nov 11 2014</p>
+                    <p class="text-gray brd-b">Lorem ipsum dolor sit amet, consectetur adpisicing elit, sed do euismod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minin veniam, quis nositrud exectitacion ulfani laborals nisi ut aliquip ex ea commodo</p>
+                    <a href="#" class="more">MORE</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="more-images pd-2">
+        <div class="container-fluid">
+            <div class="row">  
+                <a href="#" class="col-3">
+                    <img src="img/imagen6.jpg">
+                </a>
+                <a href="#"  class="col-3">
+                    <img src="img/imagen7.jpg">
+                </a>
+                <a href="#"  class="col-3">
+                    <img src="img/imagen8.jpg">
+                </a>
+                <a href="#" class="col-3">
+                    <img src="img/imagen9.jpg">
+                </a>
+            </div>                
 		</div>
-		<div class="col-6">
-		      <div class="bloque">
-				<div>
-					<h2 class="gray">News</h2>
-					<h3>Lorem Ipsum Dolor sit amet</h3>
-					<p class="gray"> Nov 11 2014<br/>Lorem Ipsum Dolor sit amet,consectetur adpisicing elit,sed do euismod tempor inciduunt ut labore et dolore magna aliqua.Ut enim ad minin veniam,quis nositrud exectitacion ulfani laborals nisi ut aliquip ex ea commodo</p>
-					<div class="raya"></div>
-				</div>
-				<div>
-					<h3>Lorem Ipsum Dolor sit amet</h3>
-					<p class="gray"> Nov 11 2014<br/>Lorem Ipsum Dolor sit amet,consectetur adpisicing elit,sed do euismod tempor inciduunt ut labore et dolore magna aliqua.Ut enim ad minin veniam,quis nositrud exectitacion ulfani laborals nisi ut aliquip ex ea commodo</p>
-					<div class="raya"></div>
-					<div class="more">MORE</div>
-				</div>
-				<div class="conteiner">
-					<div class="row">
-						<div class="col-6">
-							<img src="img/imagen8.jpg" class="im"/>
-					    </div>
-					    <div class="col-6">
-							<img src="img/imagen9.jpg" class="im"/>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-<footer>
-	<p class="pie">Disclaimer:</p>
-	<p><br/> this s freebies and not an official webside. I have no intention of disclose any movie.brand,news.<br/>My goal here is to train or excercise my skill and share this freebies.</p>
-	<p><br/>created by fikristudio in Indonesia</p>
-	<p>Drible.com/bagus_firi<br/> be.net/bagusfriki<br/>wwww.friistudio.com</p>
-</footer>
-
+    </section> 
+    <footer class="pd-2">
+        <div class="container-fluid">
+            <h3>Disclaimer:</h3>
+            <p>this is freebies and not an official webside, I have no intention of disclose any movie. brand, news.</p>
+    
+            <p class="mgb-3">My goal here is to train or excercise my skill and share this freebies.</p>
+             
+            <p class="mgb-3">created by Fikristudio in <strong>Indonesia</strong></p>
+            
+            <h5>Dribble.com/bagus_firi <br>Be.net/bagusfriki <br> www.friistudio.com</h5>           
+        </div>
+    </footer>
 </body>
-</html>
+</html>   
+		
